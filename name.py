@@ -122,11 +122,11 @@ class SocketProxy(object):
 
 
 
-db = SocketProxy('mostafa')
+db = SocketProxy('tagname') # example tag name in json file data
 
 db.version()
 db.read()
 
-if db.checkPermission('res.parnter',['read']):
+if db.checkPermission('res.parnter',['read']): # check permission ['unlink',...] 
    db.read('res.parnter',['name','value'])
    db.search('res.parnter',[])
