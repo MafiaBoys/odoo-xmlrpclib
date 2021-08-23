@@ -1,0 +1,19 @@
+{
+    "mostafa": {
+
+          "host"     : "http://localhost:8069/",
+          "service"  : "xmlrpc/2",
+          "dbname"   : "database",
+          "username": "admin",
+          "password" : "admin"
+    },
+	"odoo": {
+
+          "host"     : "http://localhost:8069/",
+          "service"  : "xmlrpc/2",
+          "dbname"   : "database",
+          "username" : "admin",
+          "password" : "admin"
+    }
+
+}
