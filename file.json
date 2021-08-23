@@ -1,5 +1,5 @@
 {
-    "mostafa": {
+    "tagname1": {
 
           "host"     : "http://localhost:8069/",
           "service"  : "xmlrpc/2",
@@ -7,7 +7,7 @@
           "username": "admin",
           "password" : "admin"
     },
-	"odoo": {
+    "tagname2": {
 
           "host"     : "http://localhost:8069/",
           "service"  : "xmlrpc/2",
